@@ -137,7 +137,7 @@ elif st.session_state.stage == "slot":
                 if json_slot_key == correct_slot:
                     st.session_state.score += 1
                     st.session_state.feedback_type = "success"
-                    st.session_state.feedback = f"Correct, it's **{correct_name}**'s **{slot_name}** ability!"
+                    st.session_state.feedback = f"🎉 Correct, it's **{correct_name}**'s **{slot_name}** ability!"
                 else:
                     st.session_state.feedback_type = "error"
                     st.session_state.feedback = f"Incorrect! The correct answer was **{correct_name}**'s **{correct_slot.upper()}** ability."
@@ -151,21 +151,21 @@ elif st.session_state.stage == "slot":
         st.session_state.stage = "complete"
         st.rerun()
 
-    elif st.session_state.stage == "complete":
-        champ_face_path = os.path.join("league_champion_icons", f"{correct_name}.png")
+elif st.session_state.stage == "complete":
+    champ_face_path = os.path.join("league_champion_icons", f"{correct_name}.png")
+    
+    col1, col2 = st.columns([1, 4])
+    with col1:
+        if os.path.exists(champ_face_path):
+            st.image(champ_face_path, width=70)
+    with col2:
+        st.markdown(f"### {correct_name}")
+        st.caption(f"Mastery data logged for slot [{correct_slot.upper()}]")
         
-        col1, col2 = st.columns([1, 4])
-        with col1:
-            if os.path.exists(champ_face_path):
-                st.image(champ_face_path, width=70)
-        with col2:
-            st.markdown(f"### {correct_name}")
-            st.caption(f"Mastery data logged for slot [{correct_slot.upper()}]")
-            
-        st.write("")
-        if st.button("Next Round", icon=":material/arrow_forward:", use_container_width=True):
-            next_question()
-            st.rerun()
+    st.write("")
+    if st.button("Next Round", icon=":material/arrow_forward:", use_container_width=True):
+        next_question()
+        st.rerun()
 
 st.write("---")
 st.caption("Made by Haru Nora | Discord: haru.nora")
