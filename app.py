@@ -13,21 +13,17 @@ def load_data():
 
 data = load_data()
 
-# FIXED: data keys are now the champion names directly
 champ_list = [""] + sorted(list(data.keys()))
 
 if "score" not in st.session_state:
     st.session_state.score = 0
 if "current_champ" not in st.session_state:
-    # FIXED: Select a random champion name, then grab their skills dictionary
     random_champ_name = random.choice(list(data.keys()))
     st.session_state.current_champ = random_champ_name
     
-    # Filter out empty slots if any exist, then pick a random slot
     available_slots = [slot for slot, icons in data[random_champ_name].items() if icons and slot != "extras"]
     st.session_state.current_slot = random.choice(available_slots)
     
-    # Pick a random icon from that slot's list
     st.session_state.current_icon = random.choice(data[random_champ_name][st.session_state.current_slot])
 
 if "feedback" not in st.session_state:
@@ -59,8 +55,7 @@ header_col1, header_col2, header_col3 = st.columns([1, 3, 1])
 correct_name = st.session_state.current_champ
 correct_slot = st.session_state.current_slot
 
-# FIXED: Reconstruct path using the specific champion folder and filename
-# Maps back to 'cd_skill_icons/Champion/filename.png'
+# FIXEDD reconstruct path using champion folder and filename
 img_path = os.path.join("cd_skill_icons", correct_name, st.session_state.current_icon)
 
 with header_col1:
@@ -128,15 +123,15 @@ elif st.session_state.stage == "slot":
     slots = ["Passive", "Q", "W", "E", "R"]
     
     for i, slot_name in enumerate(slots):
-        # Convert to lowercase to match the JSON keys ('passive', 'q', etc.)
+        # Convert to lowercase to match the JSON keys
         json_slot_key = slot_name.lower()
         with cols[i]:
             if st.button(f"✨ {slot_name}", key=f"btn_{slot_name}", use_container_width=True):
                 if json_slot_key == correct_slot:
                     st.session_state.score += 1
-                    st.session_state.feedback = f"🎉 Correct, it's the **{slot_name}** ability!"
+                    st.session_state.feedback = f"🎉 Correct, it's **{correct_name}**'s **{slot_name}** ability!"
                 else:
-                    st.session_state.feedback = f"👻 So close! The correct answer was the **{slot_name}** ability."
+                    st.session_state.feedback = f"Incorrect! The correct answer was **{correct_name}**'s **{correct_slot.upper()}** ability."
                 st.session_state.stage = "complete"
                 st.rerun()
 
@@ -155,3 +150,4 @@ elif st.session_state.stage == "complete":
 
 st.write("---")
 st.caption("Made by Haru Nora | Discord: haru.nora")
+# I hate using emotes bro
