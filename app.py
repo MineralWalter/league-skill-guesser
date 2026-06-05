@@ -1,0 +1,157 @@
+import streamlit as st
+import json
+import random
+import os
+
+st.set_page_config(page_title="League Skill Trivia", page_icon="🎮", layout="centered")
+st.title("Guess the Champion by Skill Icon")
+
+@st.cache_data
+def load_data():
+    with open("game_data.json", "r") as f:
+        return json.load(f)
+
+data = load_data()
+
+# FIXED: data keys are now the champion names directly
+champ_list = [""] + sorted(list(data.keys()))
+
+if "score" not in st.session_state:
+    st.session_state.score = 0
+if "current_champ" not in st.session_state:
+    # FIXED: Select a random champion name, then grab their skills dictionary
+    random_champ_name = random.choice(list(data.keys()))
+    st.session_state.current_champ = random_champ_name
+    
+    # Filter out empty slots if any exist, then pick a random slot
+    available_slots = [slot for slot, icons in data[random_champ_name].items() if icons and slot != "extras"]
+    st.session_state.current_slot = random.choice(available_slots)
+    
+    # Pick a random icon from that slot's list
+    st.session_state.current_icon = random.choice(data[random_champ_name][st.session_state.current_slot])
+
+if "feedback" not in st.session_state:
+    st.session_state.feedback = ""
+if "stage" not in st.session_state:
+    st.session_state.stage = "champ"
+
+def next_question():
+    random_champ_name = random.choice(list(data.keys()))
+    st.session_state.current_champ = random_champ_name
+    
+    available_slots = [slot for slot, icons in data[random_champ_name].items() if icons and slot != "extras"]
+    st.session_state.current_slot = random.choice(available_slots)
+    st.session_state.current_icon = random.choice(data[random_champ_name][st.session_state.current_slot])
+    
+    st.session_state.feedback = ""
+    st.session_state.stage = "champ"
+
+if st.session_state.feedback:
+    if "❌" in st.session_state.feedback:
+        st.error(st.session_state.feedback)
+    elif "So close!" in st.session_state.feedback or "🔍" in st.session_state.feedback:
+        st.warning(st.session_state.feedback)
+    else:
+        st.success(st.session_state.feedback)
+
+header_col1, header_col2, header_col3 = st.columns([1, 3, 1])
+
+correct_name = st.session_state.current_champ
+correct_slot = st.session_state.current_slot
+
+# FIXED: Reconstruct path using the specific champion folder and filename
+# Maps back to 'cd_skill_icons/Champion/filename.png'
+img_path = os.path.join("cd_skill_icons", correct_name, st.session_state.current_icon)
+
+with header_col1:
+    if os.path.exists(img_path):
+        st.image(img_path, width=90)
+    else:
+        st.error("Missing!")
+
+with header_col2:
+    st.subheader("Which champion ability is this?")
+
+with header_col3:
+    st.metric(label="Score", value=st.session_state.score)
+
+st.write("---")
+
+if st.session_state.stage == "champ":
+    with st.form(key="guess_form", clear_on_submit=False):
+        input_col1, input_col2 = st.columns([4, 1])
+        
+        with input_col1:
+            user_guess = st.selectbox(
+                "Select a champion:", 
+                options=champ_list,
+                index=0
+            )
+        
+        with input_col2:
+            if user_guess != "":
+                preview_icon_path = os.path.join("league_champion_icons", f"{user_guess}.png")
+                if os.path.exists(preview_icon_path):
+                    st.image(preview_icon_path, width=50)
+
+        submit_button = st.form_submit_button(label="Submit Guess")
+
+    if submit_button:
+        if user_guess == "":
+            st.session_state.feedback = "⚠️ Please select a champion from the dropdown before submitting!"
+            st.rerun()
+        elif user_guess == correct_name:
+            st.session_state.score += 1
+            st.session_state.feedback = f"🎯 **Correct! It is {correct_name}.** Now, which ability slot is it?"
+            st.session_state.stage = "slot"
+            st.rerun()
+        else:
+            st.session_state.feedback = f"❌ Wrong champion! Try again or Skip."
+            st.rerun()
+
+    if st.button("Skip Champion ➡️"):
+        st.session_state.feedback = f"🔍 The champion was **{correct_name}**. But can you guess the slot?"
+        st.session_state.stage = "slot"
+        st.rerun()
+
+elif st.session_state.stage == "slot":
+    slot_header_l, slot_header_r = st.columns([4, 1])
+    with slot_header_l:
+        st.info(f"Champion Identified: **{correct_name}**")
+        st.write("Choose which skill slot this icon belongs to:")
+    with slot_header_r:
+        champ_face_path = os.path.join("league_champion_icons", f"{correct_name}.png")
+        if os.path.exists(champ_face_path):
+            st.image(champ_face_path, width=65)
+    
+    cols = st.columns(5)
+    slots = ["Passive", "Q", "W", "E", "R"]
+    
+    for i, slot_name in enumerate(slots):
+        # Convert to lowercase to match the JSON keys ('passive', 'q', etc.)
+        json_slot_key = slot_name.lower()
+        with cols[i]:
+            if st.button(f"✨ {slot_name}", key=f"btn_{slot_name}", use_container_width=True):
+                if json_slot_key == correct_slot:
+                    st.session_state.score += 1
+                    st.session_state.feedback = f"🎉 Correct, it's the **{slot_name}** ability!"
+                else:
+                    st.session_state.feedback = f"👻 So close! The correct answer was the **{slot_name}** ability."
+                st.session_state.stage = "complete"
+                st.rerun()
+
+    st.write("")
+    if st.button("Skip Slot ➡️"):
+        st.session_state.feedback = f"The icon belongs to the **{correct_slot.upper()}** slot."
+        st.session_state.stage = "complete"
+        st.rerun()
+
+elif st.session_state.stage == "complete":
+    st.info(f"Round Matchup: **{correct_name}** | Slot Target: **{correct_slot.upper()}**")
+    
+    if st.button("Next Champion ➡️", use_container_width=True):
+        next_question()
+        st.rerun()
+
+st.write("---")
+st.caption("Made by Haru Nora | Discord: haru.nora")

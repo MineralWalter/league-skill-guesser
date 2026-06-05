@@ -1,0 +1,1384 @@
+{
+  "Aatrox": {
+    "passive": ["aatrox_passive.png"],
+    "q": ["aatrox_q.png", "aatrox_q2.png", "aatrox_q3.png"],
+    "w": ["aatrox_w.png"],
+    "e": ["aatrox_e.png"],
+    "r": ["aatrox_r.png"],
+    "extras": []
+  },
+  "Ahri": {
+    "passive": ["icons_ahri_passive.png"],
+    "q": ["icons_ahri_q.png"],
+    "w": ["icons_ahri_w.png"],
+    "e": ["icons_ahri_e.png"],
+    "r": ["icons_ahri_r.png"],
+    "extras": ["ahri_souleater.png", "ahri_souleater2.png"]
+  },
+  "Akali": {
+    "passive": ["akali_p.png"],
+    "q": ["akali_q.png"],
+    "w": ["akali_w.png"],
+    "e": ["akali_e.png", "akali_e2.png"],
+    "r": ["akali_r.png", "akali_r2.png"],
+    "extras": []
+  },
+  "Akshan": {
+    "passive": ["akshan_p.png"],
+    "q": ["akshan_q.png"],
+    "w": ["akshan_w.png"],
+    "e": ["akshan_e.png", "akshan_e2.png"],
+    "r": ["akshan_r.png"],
+    "extras": []
+  },
+  "Alistar": {
+    "passive": ["alistar_passive.png"],
+    "q": ["alistar_q.png"],
+    "w": ["alistar_w.png"],
+    "e": ["alistar_e.png"],
+    "r": ["alistar_r.png"],
+    "extras": []
+  },
+  "Ambessa": {
+    "passive": ["icon_ambessa_passive.png"],
+    "q": ["icon_ambessa_q1.png", "icon_ambessa_q2.png"],
+    "w": ["icon_ambessa_w.png"],
+    "e": ["icon_ambessa_e.png"],
+    "r": ["icon_ambessa_r.png"],
+    "extras": []
+  },
+  "Amumu": {
+    "passive": ["amumu_passive.png"],
+    "q": ["amumu_q.png"],
+    "w": ["amumu_w.png"],
+    "e": ["amumu_e.png"],
+    "r": ["amumu_r.png"],
+    "extras": []
+  },
+  "Anivia": {
+    "passive": ["anivia_p.png"],
+    "q": ["anivia_q.png"],
+    "w": ["anivia_w.png"],
+    "e": ["anivia_e.png"],
+    "r": ["anivia_r.png"],
+    "extras": []
+  },
+  "Annie": {
+    "passive": ["annie_passive.png"],
+    "q": ["annie_q.png"],
+    "w": ["annie_w.png"],
+    "e": ["annie_e.png"],
+    "r": ["annie_r1.png", "annie_r2.png"],
+    "extras": []
+  },
+  "Aphelios": {
+    "passive": ["apheliosp.png"],
+    "q": ["apheliosq.png", "q_calibrum.png", "q_crescendum.png", "q_gravitum.png", "q_infernum.png", "q_severum.png"],
+    "w": ["apheliosw.png"],
+    "e": [],
+    "r": ["apheliosr.png"],
+    "extras": [
+      "calibrum_l.png", "calibrum_m.png", "calibrum_u.png", "calibrum_u2.png",
+      "crescendum_l.png", "crescendum_m.png", "crescendum_u.png", "crescendum_u2.png",
+      "gravitum_l.png", "gravitum_m.png", "gravitum_u.png", "gravitum_u2.png",
+      "infernum_l.png", "infernum_m.png", "infernum_u.png", "infernum_u2.png",
+      "severum_l.png", "severum_m.png", "severum_u.png", "severum_u2.png"
+    ]
+  },
+  "Ashe": {
+    "passive": ["ashe_p.png"],
+    "q": ["ashe_q.png"],
+    "w": ["ashe_w.png"],
+    "e": ["ashe_e.png"],
+    "r": ["ashe_r.png"],
+    "extras": []
+  },
+  "AurelionSol": {
+    "passive": ["aurelionsolp.png"],
+    "q": ["aurelionsolq.png"],
+    "w": ["aurelionsolw1.png", "aurelionsolw2.png"],
+    "e": ["aurelionsole.png"],
+    "r": ["aurelionsolr1.png", "aurelionsolr2.png", "aurelionsol_r.png"],
+    "extras": []
+  },
+  "Aurora": {
+    "passive": ["aurorapassive.png"],
+    "q": ["auroraq.png", "auroraq2.png"],
+    "w": ["auroraw.png"],
+    "e": ["aurorae.png"],
+    "r": ["aurorar.png"],
+    "extras": []
+  },
+  "Azir": {
+    "passive": ["azir_passive.png"],
+    "q": ["azir_q.png"],
+    "w": ["azir_w.png"],
+    "e": ["azir_e.png"],
+    "r": ["azir_r.png"],
+    "extras": []
+  },
+  "Bard": {
+    "passive": ["bard_passive.png"],
+    "q": ["bard_q.png"],
+    "w": ["bard_w.png"],
+    "e": ["bard_e.png"],
+    "r": ["bard_r.png"],
+    "extras": []
+  },
+  "Belveth": {
+    "passive": ["belveth_passive.png"],
+    "q": ["bv_q_1.png"],
+    "w": ["belvethw.png"],
+    "e": ["belvethe.png"],
+    "r": ["belvethr.png"],
+    "extras": []
+  },
+  "Blitzcrank": {
+    "passive": ["blitzcrankp.png", "blitzcrank_manabarrier.png"],
+    "q": ["blitzcrankq.png", "blitzcrank_rocketgrab.png"],
+    "w": ["blitzcrankw.png"],
+    "e": ["blitzcranke.png"],
+    "r": ["blitzcrankr.png"],
+    "extras": []
+  },
+  "Brand": {
+    "passive": ["brandp.png"],
+    "q": ["brandq.png"],
+    "w": ["brandw.png"],
+    "e": ["brande.png"],
+    "r": ["brandr.png"],
+    "extras": []
+  },
+  "Braum": {
+    "passive": ["braum_passive.png"],
+    "q": ["braum_q.png"],
+    "w": ["braum_w.png"],
+    "e": ["braum_e.png"],
+    "r": ["braum_r.png"],
+    "extras": []
+  },
+  "Briar": {
+    "passive": ["briarp.png"],
+    "q": ["briarq.png"],
+    "w": ["briarw.png", "briarw2.png"],
+    "e": ["briare.png"],
+    "r": ["briarr.png"],
+    "extras": []
+  },
+  "Caitlyn": {
+    "passive": ["caitlynp.png"],
+    "q": ["caitlynq.png"],
+    "w": ["caitlynw.png"],
+    "e": ["caitlyne.png"],
+    "r": ["caitlynr.png"],
+    "extras": []
+  },
+  "Camille": {
+    "passive": ["camille_passive.png"],
+    "q": ["camille_q1.png", "camille_q2.png", "camille_q3.png"],
+    "w": ["camille_w.png"],
+    "e": ["camille_e.png", "camille_e2.png"],
+    "r": ["camille_r.png"],
+    "extras": []
+  },
+  "Cassiopeia": {
+    "passive": ["cassiopeia_passive.png"],
+    "q": ["cassiopeia_q.png"],
+    "w": ["cassiopeia_w.png"],
+    "e": ["cassiopeia_e.png"],
+    "r": ["cassiopeia_r.png"],
+    "extras": []
+  },
+  "Chogath": {
+    "passive": ["greenterror_tailspike.png"],
+    "q": ["greenterror_spikeslam.png"],
+    "w": ["greenterror_feralscream.png"],
+    "e": ["greenterror_chitinousexoplates.png"],
+    "r": ["greenterror_feast.png"],
+    "extras": []
+  },
+  "Corki": {
+    "passive": ["corki_rapidreload.png"],
+    "q": ["corki_phosphorusbomb.png"],
+    "w": ["corki_valkyrie.png"],
+    "e": ["corki_gatlinggun.png"],
+    "r": ["corki_missilebarrage.png", "corki_r_bigone.png"],
+    "extras": []
+  },
+    "Darius": {
+    "passive": ["darius_icon_hemorrhage.png"],
+    "q": ["darius_icon_decimate.png"],
+    "w": ["darius_icon_hamstring.png"],
+    "e": ["darius_icon_axe_grab.png"],
+    "r": ["darius_icon_sudden_death.png"],
+    "extras": []
+  },
+  "Diana": {
+    "passive": ["diana_passive_lunarblade.png"],
+    "q": ["diana_q_moonsedge.png"],
+    "w": ["diana_w_lunarshower.png"],
+    "e": ["diana_e_fasterthanlight.png"],
+    "r": ["diana_r_moonfall.png"],
+    "extras": []
+  },
+  "Draven": {
+    "passive": ["draven_passive.png"],
+    "q": ["draven_spinningaxe.png"],
+    "w": ["draven_bloodrage.png"],
+    "e": ["draven_twinaxe.png"],
+    "r": ["draven_whirlingdeath.png", "draven_whirlingdeath_recall.png"],
+    "extras": []
+  },
+  "DrMundo": {
+    "passive": ["drmundo_p.png"],
+    "q": ["drmundo_q.png"],
+    "w": ["drmundo_w.png", "drmundo_w2.png"],
+    "e": ["drmundo_e.png"],
+    "r": ["drmundo_r.png"],
+    "extras": []
+  },
+  "Ekko": {
+    "passive": ["ekko_p.png"],
+    "q": ["ekko_q.png"],
+    "w": ["ekko_w.png"],
+    "e": ["ekko_e.png"],
+    "r": ["ekko_r.png"],
+    "extras": []
+  },
+  "Elise": {
+    "passive": ["elisepassive.png"],
+    "q": ["elisehumanq.png", "elisespiderq.png"],
+    "w": ["elisehumanw.png", "elisespiderw.png"],
+    "e": ["elisehumane.png", "elisespidere.png"],
+    "r": ["eliser.png"],
+    "extras": []
+  },
+  "Evelynn": {
+    "passive": ["evelynn_passive.png"],
+    "q": ["evelynn_q1.png", "evelynn_q2.png"],
+    "w": ["evelynn_w.png"],
+    "e": ["evelynn_e1.png", "evelynn_e2.png"],
+    "r": ["evelynn_r.png"],
+    "extras": []
+  },
+  "Ezreal": {
+    "passive": ["ezreal_passive.png"],
+    "q": ["ezreal_q.png"],
+    "w": ["ezreal_w.png"],
+    "e": ["ezreal_e.png"],
+    "r": ["ezreal_r.png"],
+    "extras": []
+  },
+  "Fiddlesticks": {
+    "passive": ["fiddlesticksp.png", "fiddlesticks_conjurescarecrow.png"],
+    "q": ["fiddlesticksq.png"],
+    "w": ["fiddlesticksw.png"],
+    "e": ["fiddlestickse.png"],
+    "r": ["fiddlesticksr.png"],
+    "extras": []
+  },
+  "Fiora": {
+    "passive": ["fiora_p.png"],
+    "q": ["fiora_q.png"],
+    "w": ["fiora_w.png"],
+    "e": ["fiora_e.png"],
+    "r": ["fiora_r.png", "fiora_r_heal.png"],
+    "extras": []
+  },
+  "Fizz": {
+    "passive": ["fizz_p.png"],
+    "q": ["fizz_q.png"],
+    "w": ["fizz_w.png"],
+    "e": ["fizz_e1.png", "fizz_e2.png"],
+    "r": ["fizz_r.png"],
+    "extras": []
+  },
+  "Galio": {
+    "passive": ["galio_passive.png"],
+    "q": ["galio_q.png"],
+    "w": ["galio_w.png", "galio_w_passive.png"],
+    "e": ["galio_e.png"],
+    "r": ["galio_r.png"],
+    "extras": []
+  },
+  "Gangplank": {
+    "passive": ["gangplank_passive.png"],
+    "q": ["gangplank_q.png"],
+    "w": ["gangplank_w.png"],
+    "e": ["gangplank_e.png"],
+    "r": ["gangplank_r.png"],
+    "extras": []
+  },
+  "Garen": {
+    "passive": ["garen_passive.png", "garen_perseverance.png"],
+    "q": ["garen_q.png"],
+    "w": ["garen_w.png"],
+    "e": ["garen_e1.png", "garen_e2.png"],
+    "r": ["garen_r.png"],
+    "extras": []
+  },
+  "Gnar": {
+    "passive": ["gnar_passive.png"],
+    "q": ["gnar_q.png", "gnarbig_q.png"],
+    "w": ["gnar_w.png", "gnarbig_w.png"],
+    "e": ["gnar_e.png", "gnarbig_e.png"],
+    "r": ["gnarbig_r.png"],
+    "extras": []
+  },
+  "Gragas": {
+    "passive": ["gragaspassiveheal.png"],
+    "q": ["gragasbarrelroll.png"],
+    "w": ["gragasdrunkenrage.png"],
+    "e": ["gragasbodyslam.png"],
+    "r": ["gragasexplosivecask.png"],
+    "extras": []
+  },
+  "Graves": {
+    "passive": ["gravesp.png"],
+    "q": ["gravesq.png", "gravesbuckshot.png"],
+    "w": ["gravesw.png"],
+    "e": ["gravese.png", "gravestruegrit.png"],
+    "r": ["gravesr.png"],
+    "extras": []
+  },
+  "Gwen": {
+    "passive": ["gwen_passive.png"],
+    "q": ["gwen_q.png"],
+    "w": ["gwen_w.png"],
+    "e": ["gwen_e.png"],
+    "r": ["gwen_r.png", "gwen_r2.png", "gwen_r3.png"],
+    "extras": []
+  },
+  "Hecarim": {
+    "passive": ["hecarim_passive.png"],
+    "q": ["hecarim_rampage.png"],
+    "w": ["hecarim_spiritofdread.png"],
+    "e": ["hecarim_devastingcharge.png"],
+    "r": ["hecarim_onslaughtofshadows.png"],
+    "extras": []
+  },
+  "Heimerdinger": {
+    "passive": ["heimerdinger_passive.png"],
+    "q": ["heimerdinger_q1.png", "heimerdinger_q2.png"],
+    "w": ["heimerdinger_w1.png", "heimerdinger_w2.png"],
+    "e": ["heimerdinger_e1.png", "heimerdinger_e2.png"],
+    "r": ["heimerdinger_r.png"],
+    "extras": []
+  },
+  "Hwei": {
+    "passive": ["hweipassive.png"],
+    "q": ["hweiq.png", "hweiqq.png", "hweiqw.png", "hweiqe.png"],
+    "w": ["hweiw.png", "hweiwq.png", "hweiww.png", "hweiwe.png"],
+    "e": ["hweie.png", "hweieq.png", "hweiew.png", "hweiee.png"],
+    "r": ["hweir.png", "hweiwashbrush.png"],
+    "extras": []
+  },
+  "Illaoi": {
+    "passive": ["illaoi_p.png"],
+    "q": ["illaoi_q.png"],
+    "w": ["illaoi_w.png"],
+    "e": ["illaoi_e.png"],
+    "r": ["illaoi_r.png"],
+    "extras": []
+  },
+  "Irelia": {
+    "passive": ["irelia_passive.png"],
+    "q": ["irelia_q.png"],
+    "w": ["irelia_w.png"],
+    "e": ["irelia_e.png", "irelia_e2.png"],
+    "r": ["irelia_r.png"],
+    "extras": []
+  },
+  "Ivern": {
+    "passive": ["ivernp.png"],
+    "q": ["ivernq.png"],
+    "w": ["ivernw.png"],
+    "e": ["iverne.png"],
+    "r": ["ivernr.png", "ivernr2.png"],
+    "extras": []
+  },
+  "Janna": {
+    "passive": ["jannap.png"],
+    "q": ["jannaq.png"],
+    "w": ["jannaw.png"],
+    "e": ["jannae.png"],
+    "r": ["jannar.png"],
+    "extras": []
+  },
+  "JarvanIV": {
+    "passive": ["jarvanivp.png"],
+    "q": ["jarvanivq.png"],
+    "w": ["jarvanivw.png"],
+    "e": ["jarvanive.png"],
+    "r": ["jarvanivr.png"],
+    "extras": []
+  },
+  "Jax": {
+    "passive": ["jaxp.png"],
+    "q": ["jaxq.png"],
+    "w": ["jaxw.png"],
+    "e": ["jaxe.png"],
+    "r": ["jaxr.png"],
+    "extras": ["jax_fishing.png"]
+  },
+  "Jayce": {
+    "passive": ["jayce_passive.png"],
+    "q": ["jayceq_melee.png", "jayceq_ranged.png"],
+    "w": ["jaycew_melee.png", "jaycew_ranged.png"],
+    "e": ["jaycee_melee.png", "jaycee_ranged.png"],
+    "r": ["jaycer_melee.png", "jaycer_ranged.png"],
+    "extras": []
+  },
+  "Jhin": {
+    "passive": ["jhin_p.png"],
+    "q": ["jhin_q.png"],
+    "w": ["jhin_w.png"],
+    "e": ["jhin_e.png"],
+    "r": ["jhin_r.png", "jhin_r_shot.png"],
+    "extras": []
+  },
+  "Jinx": {
+    "passive": ["jinx_passive.png"],
+    "q": ["jinx_q1.png", "jinx_q2.png"],
+    "w": ["jinx_w.png"],
+    "e": ["jinx_e.png"],
+    "r": ["jinx_r.png"],
+    "extras": []
+  },
+  "Kaisa": {
+    "passive": ["kaisa_passive.png"],
+    "q": ["kaisa_q.png", "kaisa_q2.png"],
+    "w": ["kaisa_w.png", "kaisa_w2.png"],
+    "e": ["kaisa_e.png", "kaisa_e2.png"],
+    "r": ["kaisa_r.png"],
+    "extras": []
+  },
+  "Kalista": {
+    "passive": ["kalista_passive.png"],
+    "q": ["kalista_q.png"],
+    "w": ["kalista_w.png"],
+    "e": ["kalista_e.png"],
+    "r": ["kalista_r.png"],
+    "extras": []
+  },
+  "Karma": {
+    "passive": ["karma_passive.png"],
+    "q": ["karma_q1.png", "karma_q2.png"],
+    "w": ["karma_w1.png", "karma_w2.png"],
+    "e": ["karma_e1.png", "karma_e2.png"],
+    "r": ["karma_r.png"],
+    "extras": []
+  },
+  "Karthus": {
+    "passive": ["karthus_passive.png"],
+    "q": ["karthus_q.png"],
+    "w": ["karthus_w.png"],
+    "e": ["karthus_e.png"],
+    "r": ["karthus_r.png"],
+    "extras": []
+  },
+  "Kassadin": {
+    "passive": ["kassadin_passive.png"],
+    "q": ["kassadin_q.png"],
+    "w": ["kassadin_w.png"],
+    "e": ["kassadin_e.png"],
+    "r": ["kassadin_r.png"],
+    "extras": []
+  },
+  "Katarina": {
+    "passive": ["katarina_passive.png"],
+    "q": ["katarina_q.png"],
+    "w": ["katarina_w.png"],
+    "e": ["katarina_e.png"],
+    "r": ["katarina_r.png"],
+    "extras": []
+  },
+  "Kayle": {
+    "passive": ["kayle_p.png"],
+    "q": ["kayle_q.png"],
+    "w": ["kayle_w.png"],
+    "e": ["kayle_e.png", "kayle_e2.png"],
+    "r": ["kayle_r.png"],
+    "extras": []
+  },
+  "Kayn": {
+    "passive": ["kayn_passive_primary.png", "kayn_passive_ass.png", "kayn_passive_slay.png"],
+    "q": ["kayn_q_primary.png", "kayn_q_ass.png", "kayn_q_slay.png"],
+    "w": ["kayn_w_primary.png", "kayn_w_ass.png", "kayn_w_slay.png"],
+    "e": ["kayn_e_primary.png", "kayn_e_ass.png", "kayn_e_slay.png"],
+    "r": ["kayn_r1_primary.png", "kayn_r2_primary.png", "kayn_r1_slay.png", "kayn_r2_slay.png", "kayn_r2_ass.png"],
+    "extras": []
+  },
+  "Kennen": {
+    "passive": ["kennen_passive.png"],
+    "q": ["kennen_q.png"],
+    "w": ["kennen_w.png"],
+    "e": ["kennen_e.png"],
+    "r": ["kennen_r.png"],
+    "extras": []
+  },
+  "Khazix": {
+    "passive": ["khazix_p.png"],
+    "q": ["khazix_q.png", "khazix_q_red.png"],
+    "w": ["khazix_w.png", "khazix_w_red.png"],
+    "e": ["khazix_e.png", "khazix_e_red.png"],
+    "r": ["khazix_r.png", "khazix_r_red.png"],
+    "extras": []
+  },
+  "Kindred": {
+    "passive": ["kindred_passive.png"],
+    "q": ["kindred_q.png"],
+    "w": ["kindred_w.png"],
+    "e": ["kindred_e.png"],
+    "r": ["kindred_r.png"],
+    "extras": []
+  },
+  "Kled": {
+    "passive": ["kled_p.png", "kled_p2.png"],
+    "q": ["kled_q.png", "kled_q1.png", "kled_q2.png"],
+    "w": ["kled_w.png"],
+    "e": ["kled_e1.png"],
+    "r": ["kled_r.png"],
+    "extras": []
+  },
+  "KogMaw": {
+    "passive": ["kogmaw_icathiansurprise.png"],
+    "q": ["kogmaw_causticspittle.png"],
+    "w": ["kogmaw_bioarcanebarrage.png"],
+    "e": ["kogmaw_voidooze.png"],
+    "r": ["kogmaw_livingartillery.png"],
+    "extras": []
+  },
+  "KSante": {
+    "passive": ["icons_ksante_p.png"],
+    "q": ["icons_ksante_q1.png", "icons_ksante_q2.png", "icons_ksante_q3.png"],
+    "w": ["icons_ksante_w.png"],
+    "e": ["icons_ksante_e.png"],
+    "r": ["icons_ksante_r1.png", "icons_ksante_r2.png"],
+    "extras": []
+  },
+  "Leblanc": {
+    "passive": ["leblancp.png"],
+    "q": ["leblancq.png"],
+    "w": ["leblancw.png", "leblancwreturn.png"],
+    "e": ["leblance.png"],
+    "r": ["leblancr.png", "leblancrq.png", "leblancrw.png", "leblancre.png", "leblancrwreturn.png"],
+    "extras": []
+  },
+  "LeeSin": {
+    "passive": ["leesinp.png"],
+    "q": ["leesinq1.png", "leesinq2.png"],
+    "w": ["leesinw1.png", "leesinw2.png"],
+    "e": ["leesine1.png", "leesine2.png"],
+    "r": ["leesinr.png"],
+    "extras": []
+  },
+  "Leona": {
+    "passive": ["leonap.png"],
+    "q": ["leonaq.png"],
+    "w": ["leonaw.png"],
+    "e": ["leonae.png"],
+    "r": ["leonar.png"],
+    "extras": []
+  },
+  "Lillia": {
+    "passive": ["lillia_icon_passive.png"],
+    "q": ["lillia_icon_q.png"],
+    "w": ["lillia_icon_w.png"],
+    "e": ["lillia_icon_e.png"],
+    "r": ["lillia_icon_r.png"],
+    "extras": []
+  },
+  "Lissandra": {
+    "passive": ["lissandra_passive.png"],
+    "q": ["lissandra_q.png"],
+    "w": ["lissandra_w.png"],
+    "e": ["lissandra_e.png"],
+    "r": ["lissandra_r.png"],
+    "extras": []
+  },
+  "Lucian": {
+    "passive": ["lucian_passive.png"],
+    "q": ["lucian_q.png"],
+    "w": ["lucian_w.png"],
+    "e": ["lucian_e.png"],
+    "r": ["lucian_r.png"],
+    "extras": []
+  },
+  "Lulu": {
+    "passive": ["lulu_pixfaeriecompanion.png"],
+    "q": ["lulu_glitterbolt.png"],
+    "w": ["lulu_whimsy.png"],
+    "e": ["lulu_commandpix.png"],
+    "r": ["lulu_giantgrowth.png"],
+    "extras": []
+  },
+  "Lux": {
+    "passive": ["luxilluminatingfraulein.png"],
+    "q": ["luxcrashingblitz2.png"],
+    "w": ["luxprismawrap.png"],
+    "e": ["luxlightstrikekugel.png"],
+    "r": ["luxfinalefunkeln.png"],
+    "extras": []
+  },
+  "Malphite": {
+    "passive": ["malphite_passive.png"],
+    "q": ["malphite_q.png"],
+    "w": ["malphite_w.png"],
+    "e": ["malphite_e.png"],
+    "r": ["malphite_r.png"],
+    "extras": []
+  },
+  "Malzahar": {
+    "passive": ["malzahar_passive.png"],
+    "q": ["malzahar_q.png"],
+    "w": ["malzahar_w.png"],
+    "e": ["malzahar_e.png"],
+    "r": ["malzahar_r.png"],
+    "extras": []
+  },
+  "Maokai": {
+    "passive": ["maokai_passive.png"],
+    "q": ["maokai_q.png"],
+    "w": ["maokai_w.png"],
+    "e": ["maokai_e.png"],
+    "r": ["maokai_r.png"],
+    "extras": []
+  },
+  "MasterYi": {
+    "passive": ["masteryi_passive1.png"],
+    "q": ["masteryi_q.png"],
+    "w": ["masteryi_w.png"],
+    "e": ["masteryi_e1.png"],
+    "r": ["masteryi_r.png"],
+    "extras": []
+  },
+  "Mel": {
+    "passive": ["mel_passive.png"],
+    "q": ["mel_q.png"],
+    "w": ["mel_w.png"],
+    "e": ["mel_e.png"],
+    "r": ["mel_r.png", "mel_r2.png"],
+    "extras": []
+  },
+  "Milio": {
+    "passive": ["milio_p.png"],
+    "q": ["milio_q.png"],
+    "w": ["milio_w.png", "milio_w2.png"],
+    "e": ["milio_e.png"],
+    "r": ["milio_r.png"],
+    "extras": []
+  },
+  "MissFortune": {
+    "passive": ["missfortune_passive.png"],
+    "q": ["missfortune_q.png"],
+    "w": ["missfortune_w.png"],
+    "e": ["missfortune_e.png"],
+    "r": ["missfortune_r.png"],
+    "extras": []
+  },
+  "WuKong": {
+    "passive": ["monkeykingstoneskin.png"],
+    "q": ["monkeykingcrushingblow.png"],
+    "w": ["monkeykingdecoy.png"],
+    "e": ["monkeykingnimbusstrike.png"],
+    "r": ["monkeykingcyclone.png", "monkeykingcyclone2.png"],
+    "extras": []
+  },
+  "Mordekaiser": {
+    "passive": ["mordekaiserpassive.png"],
+    "q": ["mordekaiserq.png"],
+    "w": ["mordekaiserw.png", "mordekaiserw2.png"],
+    "e": ["mordekaisere.png"],
+    "r": ["mordekaiserr.png"],
+    "extras": []
+  },
+  "Morgana": {
+    "passive": ["fallenangel_empathize.png"],
+    "q": ["fallenangel_darkbinding.png"],
+    "w": ["fallenangel_tormentedsoil.png"],
+    "e": ["fallenangel_blackshield.png"],
+    "r": ["fallenangel_purgatory.png"],
+    "extras": []
+  },
+  "Naafiri": {
+    "passive": ["icons_naafiri_p.png"],
+    "q": ["icons_naafiri_q.png"],
+    "w": ["icons_naafiri_w.png"],
+    "e": ["icons_naafiri_e.png"],
+    "r": ["icons_naafiri_r.png"],
+    "extras": []
+  },
+  "Nami": {
+    "passive": ["namipassive.png"],
+    "q": ["namiq.png"],
+    "w": ["namiw.png"],
+    "e": ["namie.png"],
+    "r": ["namir.png"],
+    "extras": []
+  },
+  "Nasus": {
+    "passive": ["nasus_passive.png"],
+    "q": ["nasus_q.png"],
+    "w": ["nasus_w.png"],
+    "e": ["nasus_e.png"],
+    "r": ["nasus_r.png"],
+    "extras": []
+  },
+  "Nautilus": {
+    "passive": ["nautilus_staggeringblow.png"],
+    "q": ["nautilus_anchorchain.png"],
+    "w": ["nautilus_wrath.png"],
+    "e": ["nautilus_rippleeffect.png"],
+    "r": ["nautilus_grandline.png"],
+    "extras": []
+  },
+  "Neeko": {
+    "passive": ["neeko_p.png"],
+    "q": ["neeko_q.png"],
+    "w": ["neeko_w.png", "neeko_w2.png"],
+    "e": ["neeko_e.png"],
+    "r": ["neeko_r.png"],
+    "extras": []
+  },
+  "Nidalee": {
+    "passive": ["nidalee_passive.png"],
+    "q": ["nidalee_q1.png", "nidalee_q2.png"],
+    "w": ["nidalee_w1.png", "nidalee_w2.png"],
+    "e": ["nidalee_e1.png", "nidalee_e2.png"],
+    "r": ["nidalee_r1.png", "nidalee_r2.png"],
+    "extras": []
+  },
+  "Nilah": {
+    "passive": ["nilahp.png"],
+    "q": ["nilahq.png"],
+    "w": ["nilahw.png"],
+    "e": ["nilahe.png"],
+    "r": ["nilahr.png"],
+    "extras": []
+  },
+  "Nocturne": {
+    "passive": ["nocturne_umbrablades.png"],
+    "q": ["nocturne_duskbringer.png"],
+    "w": ["nocturne_shroudofdarkness.png"],
+    "e": ["nocturne_unspeakablehorror.png"],
+    "r": ["nocturne_paranoia.png"],
+    "extras": []
+  },
+  "Nunu": {
+    "passive": ["nunupassive.png"],
+    "q": ["nunuq.png"],
+    "w": ["nunuw1.png", "nunuw2.png"],
+    "e": ["nunue.png"],
+    "r": ["nunur.png"],
+    "extras": []
+  },
+  "Olaf": {
+    "passive": ["olaf_passive.png"],
+    "q": ["olaf_q.png"],
+    "w": ["olafw.png"],
+    "e": ["olafe.png"],
+    "r": ["olafr.png"],
+    "extras": []
+  },
+  "Orianna": {
+    "passive": ["oriannapassive.png"],
+    "q": ["oriannaq.png"],
+    "w": ["oriannaw.png"],
+    "e": ["oriannae.png"],
+    "r": ["oriannar.png"],
+    "extras": []
+  },
+  "Ornn": {
+    "passive": ["ornnp.png"],
+    "q": ["ornnq.png"],
+    "w": ["ornnw.png"],
+    "e": ["ornne.png"],
+    "r": ["ornnr1.png", "ornnr2.png"],
+    "extras": []
+  },
+  "Pantheon": {
+    "passive": ["pantheon_passive.png"],
+    "q": ["pantheon_q1.png", "pantheon_q2.png"],
+    "w": ["pantheon_w1.png"],
+    "e": ["pantheon_e1.png"],
+    "r": ["pantheon_r.png"],
+    "extras": []
+  },
+  "Poppy": {
+    "passive": ["poppy_passive.png"],
+    "q": ["poppy_q.png"],
+    "w": ["poppy_w.png"],
+    "e": ["poppy_e.png"],
+    "r": ["poppy_r.png"],
+    "extras": []
+  },
+  "Pyke": {
+    "passive": ["pykepassive.png"],
+    "q": ["pykeq.png"],
+    "w": ["pykew.png"],
+    "e": ["pykee.png"],
+    "r": ["pyker.png"],
+    "extras": []
+  },
+  "Qiyana": {
+    "passive": ["qiyana_passive.png"],
+    "q": ["qiyana_q1.png", "qiyana_q2_blue.png", "qiyana_q2_green.png", "qiyana_q2_red.png"],
+    "w": ["qiyana_w.png"],
+    "e": ["qiyana_e.png"],
+    "r": ["qiyana_r.png"],
+    "extras": []
+  },
+  "Quinn": {
+    "passive": ["quinn_passive.png"],
+    "q": ["quinn_q.png"],
+    "w": ["quinn_w.png"],
+    "e": ["quinn_e.png"],
+    "r": ["quinn_r1.png", "quinn_r2.png"],
+    "extras": []
+  },
+  "Rakan": {
+    "passive": ["rakan_p.png"],
+    "q": ["rakan_q.png"],
+    "w": ["rakan_w.png"],
+    "e": ["rakan_e.png", "rakan_e2.png"],
+    "r": ["rakan_r.png"],
+    "extras": []
+  },
+  "Rammus": {
+    "passive": ["armordillo_scavengearmor.png"],
+    "q": ["armordillo_powerball.png"],
+    "w": ["armordillo_scaledplating.png"],
+    "e": ["armordillo_recklesscharge.png"],
+    "r": ["armordillo_shellbash.png"],
+    "extras": []
+  },
+  "RekSai": {
+    "passive": ["reksai_passive.png"],
+    "q": ["reksai_q1.png", "reksai_q2.png"],
+    "w": ["reksai_w1.png", "reksai_w2.png"],
+    "e": ["reksai_e1.png", "reksai_e2.png"],
+    "r": ["reksai_r.png"],
+    "extras": []
+  },
+  "Rell": {
+    "passive": ["rellp.png"],
+    "q": ["rellq.png"],
+    "w": ["rellw.png", "rellmount.png"],
+    "e": ["relle.png"],
+    "r": ["rellr.png"],
+    "extras": []
+  },
+  "Renata": {
+    "passive": ["renata_p.png"],
+    "q": ["renata_q.png", "renata_q2.png"],
+    "w": ["renata_w.png"],
+    "e": ["renata_e.png"],
+    "r": ["renata_r.png"],
+    "extras": []
+  },
+  "Renekton": {
+    "passive": ["renekton_passive.png"],
+    "q": ["renekton_q.png"],
+    "w": ["renekton_w.png"],
+    "e": ["renekton_e.png", "renekton_e2.png"],
+    "r": ["renekton_r.png"],
+    "extras": []
+  },
+  "Rengar": {
+    "passive": ["rengar_p.png"],
+    "q": ["rengar_q.png", "rengarqemp.png"],
+    "w": ["rengar_w.png", "rengar_w_emp.png"],
+    "e": ["rengar_e.png", "rengar_e_emp.png"],
+    "r": ["rengar_r.png"],
+    "extras": ["rengar_bonetooth_1.png", "rengar_bonetooth_2.png", "rengar_bonetooth_3.png", "rengar_bonetooth_4.png", "rengar_bonetooth_5.png"]
+  },
+  "Riven": {
+    "passive": ["rivenrunicblades.png"],
+    "q": ["rivenbrokenwings.png"],
+    "w": ["rivenkishout.png"],
+    "e": ["rivenpathoftheexile.png"],
+    "r": ["rivenbladeoftheexile.png", "rivenwindscar.png"],
+    "extras": []
+  },
+  "Rumble": {
+    "passive": ["rumble_junkyardtitan1.png"],
+    "q": ["rumble_flamespitter.png"],
+    "w": ["rumble_scrapshield.png"],
+    "e": ["rumble_electroharpoon.png"],
+    "r": ["rumble_r.png"],
+    "extras": []
+  },
+  "Ryze": {
+    "passive": ["ryze_p.png"],
+    "q": ["ryze_q.png"],
+    "w": ["ryze_w.png"],
+    "e": ["ryze_e.png"],
+    "r": ["ryze_r.png"],
+    "extras": []
+  },
+  "Samira": {
+    "passive": ["samirap.png"],
+    "q": ["samiraq.png"],
+    "w": ["samiraw.png"],
+    "e": ["samirae.png"],
+    "r": ["samirar1.png"],
+    "extras": []
+  },
+  "Sejuani": {
+    "passive": ["sejuani_passive.png"],
+    "q": ["sejuani_q.png"],
+    "w": ["sejuani_w.png"],
+    "e": ["sejuani_e.png"],
+    "r": ["sejuani_r.png"],
+    "extras": []
+  },
+  "Senna": {
+    "passive": ["senna_passive.png"],
+    "q": ["senna_q.png"],
+    "w": ["senna_w.png"],
+    "e": ["senna_e.png"],
+    "r": ["senna_r.png"],
+    "extras": []
+  },
+  "Seraphine": {
+    "passive": ["seraphine_passive.png"],
+    "q": ["seraphine_q1.png"],
+    "w": ["seraphine_w1.png"],
+    "e": ["seraphine_e1.png"],
+    "r": ["seraphine_r.png"],
+    "extras": []
+  },
+  "Sett": {
+    "passive": ["sett_p.png"],
+    "q": ["sett_q.png"],
+    "w": ["sett_w.png"],
+    "e": ["sett_e.png"],
+    "r": ["sett_r.png"],
+    "extras": []
+  },
+  "Shaco": {
+    "passive": ["jester_carefulstrikes.png"],
+    "q": ["jester_maniacalcloak2.png"],
+    "w": ["jester_deathward.png"],
+    "e": ["jester_incrediblyprecise.png"],
+    "r": ["jester_hallucinogenbomb.png"],
+    "extras": []
+  },
+  "Shen": {
+    "passive": ["shen_passive.png"],
+    "q": ["shen_q.png"],
+    "w": ["shen_w.png"],
+    "e": ["shen_e.png"],
+    "r": ["shen_r.png"],
+    "extras": []
+  },
+  "Shyvana": {
+    "passive": ["shyvana_passive.shyvana_rework.png"],
+    "q": ["shyvana_q1.shyvana_rework.png"],
+    "w": ["shyvana_w1.shyvana_rework.png"],
+    "e": ["shyvana_e.shyvana_rework.png"],
+    "r": ["shyvana_r.shyvana_rework.png"],
+    "extras": []
+  },
+  "Singed": {
+    "passive": ["singed_passive.png"],
+    "q": ["singed_q.png"],
+    "w": ["singed_w.png"],
+    "e": ["singed_e.png"],
+    "r": ["singed_r.png"],
+    "extras": []
+  },
+  "Sion": {
+    "passive": ["sion_passive1.png"],
+    "q": ["sion_q.png"],
+    "w": ["sion_w1.png"],
+    "e": ["sion_e.png"],
+    "r": ["sion_r1.png", "sion_r2.png"],
+    "extras": []
+  },
+  "Sivir": {
+    "passive": ["sivir_passive.png"],
+    "q": ["sivir_q.png"],
+    "w": ["sivir_w.png"],
+    "e": ["sivir_e.png"],
+    "r": ["sivir_r.png"],
+    "extras": []
+  },
+  "Skarner": {
+    "passive": ["skarner_passive.png"],
+    "q": ["skarner_q.png", "skarner_q_throw.png"],
+    "w": ["skarner_w.png"],
+    "e": ["skarner_e.png"],
+    "r": ["skarner_r.png"],
+    "extras": []
+  },
+  "Smolder": {
+    "passive": ["icons_smolder_passive.png"],
+    "q": ["icons_smolder_q1.png", "icons_smolder_q2.png", "icons_smolder_q3.png", "icons_smolder_q4.png"],
+    "w": ["icons_smolder_w.png"],
+    "e": ["icons_smolder_e.png"],
+    "r": ["icons_smolder_r.png"],
+    "extras": []
+  },
+  "Sona": {
+    "passive": ["sona_passive.png"],
+    "q": ["sona_q.png"],
+    "w": ["sona_w.png"],
+    "e": ["sona_e.png"],
+    "r": ["sona_r.png"],
+    "extras": []
+  },
+  "Soraka": {
+    "passive": ["soraka_passive.png"],
+    "q": ["soraka_q.png"],
+    "w": ["soraka_w.png"],
+    "e": ["soraka_e.png"],
+    "r": ["soraka_r.png"],
+    "extras": []
+  },
+  "Swain": {
+    "passive": ["swain_p.png"],
+    "q": ["swain_q.png"],
+    "w": ["swain_w.png"],
+    "e": ["swain_e.png", "swain_e2.png"],
+    "r": ["swain_r.png", "swain_r2.png"],
+    "extras": []
+  },
+  "Sylas": {
+    "passive": ["sylasp.png"],
+    "q": ["sylasq.png"],
+    "w": ["sylasw.png"],
+    "e": ["sylase.png", "sylase2.png"],
+    "r": ["sylasr.png"],
+    "extras": []
+  },
+  "Syndra": {
+    "passive": ["syndrapassive.png"],
+    "q": ["syndraq.png"],
+    "w": ["syndra_w1.png", "syndraw2.png"],
+    "e": ["syndra_e1.png"],
+    "r": ["syndra_r1.png"],
+    "extras": []
+  },
+  "TahmKench": {
+    "passive": ["tahmkenchp.png"],
+    "q": ["tahmkenchq.png"],
+    "w": ["tahmkenchw.png"],
+    "e": ["tahmkenche.png"],
+    "r": ["tahmkenchrwrapper.png", "tahmkenchr2.png"],
+    "extras": []
+  },
+  "Taliyah": {
+    "passive": ["taliyah_passive.png"],
+    "q": ["taliyah_q.png", "taliyah_q2.png"],
+    "w": ["taliyah_w.png"],
+    "e": ["taliyah_e.png"],
+    "r": ["taliyah_r.png", "taliyah_r2.png"],
+    "extras": []
+  },
+  "Talon": {
+    "passive": ["talonp.png"],
+    "q": ["talonq.png"],
+    "w": ["talonw.png"],
+    "e": ["talone.png"],
+    "r": ["talonr.png"],
+    "extras": []
+  },
+  "Taric": {
+    "passive": ["taric_passive.png"],
+    "q": ["taric_q.png"],
+    "w": ["taric_w.png"],
+    "e": ["taric_e.png"],
+    "r": ["taric_r.png"],
+    "extras": []
+  },
+  "Teemo": {
+    "passive": ["teemo_p.png"],
+    "q": ["teemo_q.png"],
+    "w": ["teemow.png"],
+    "e": ["teemoe.png"],
+    "r": ["teemo_r.png"],
+    "extras": []
+  },
+  "Thresh": {
+    "passive": ["thresh_passive.png"],
+    "q": ["thresh_q.png", "thresh_q3.png"],
+    "w": ["thresh_w.png"],
+    "e": ["thresh_e.png"],
+    "r": ["thresh_r.png"],
+    "extras": []
+  },
+  "Tristana": {
+    "passive": ["tristana_passive.png"],
+    "q": ["tristana_q.png"],
+    "w": ["tristana_w.png"],
+    "e": ["tristana_e.png"],
+    "r": ["tristana_r.png"],
+    "extras": []
+  },
+  "Trundle": {
+    "passive": ["trundle_passive.png"],
+    "q": ["trundle_q.png"],
+    "w": ["trundle_w.png"],
+    "e": ["trundle_e.png"],
+    "r": ["trundle_r.png"],
+    "extras": []
+  },
+  "Tryndamere": {
+    "passive": ["tryndamere_passive.png"],
+    "q": ["tryndamere_q.png"],
+    "w": ["tryndamere_w.png"],
+    "e": ["tryndamere_e.png"],
+    "r": ["tryndamere_r.png"],
+    "extras": []
+  },
+  "TwistedFate": {
+    "passive": ["cardmaster_fatesgambit.png"],
+    "q": ["cardmaster_powercard.png"],
+    "w": ["cardmaster_rapidtoss.png", "cardmaster_blue.png", "cardmaster_red.png", "cardmaster_sealfate.png"],
+    "e": ["cardmaster_rapidtoss_charging.png"],
+    "r": ["destiny_oldschool.png"],
+    "extras": []
+  },
+  "Twitch": {
+    "passive": ["twitch_passive.png"],
+    "q": ["twitch_q.png"],
+    "w": ["twitch_w.png"],
+    "e": ["twitch_e.png"],
+    "r": ["twitch_r.png"],
+    "extras": []
+  },
+  "Udyr": {
+    "passive": ["udyr_p.png"],
+    "q": ["udyr_q.png"],
+    "w": ["udyr_w.png"],
+    "e": ["udyr_e.png"],
+    "r": ["udyr_r.png"],
+    "extras": []
+  },
+  "Urgot": {
+    "passive": ["urgot_passive.png"],
+    "q": ["urgot_q.png"],
+    "w": ["urgot_w.png"],
+    "e": ["urgot_e.png"],
+    "r": ["urgot_r.png", "urgot_rrecast.png"],
+    "extras": []
+  },
+  "Varus": {
+    "passive": ["varuspassive.png"],
+    "q": ["varusq.png"],
+    "w": ["varusw.png", "varusw2.png"],
+    "e": ["varuse.png"],
+    "r": ["varusr.png"],
+    "extras": []
+  },
+  "Vayne": {
+    "passive": ["vayne_p.png"],
+    "q": ["vayne_q.png"],
+    "w": ["vayne_w.png"],
+    "e": ["vayne_e.png"],
+    "r": ["vayne_r.png"],
+    "extras": []
+  },
+  "Veigar": {
+    "passive": ["veigar_entropy.png"],
+    "q": ["veigarbalefulstrike.png"],
+    "w": ["veigardarkmatter.png"],
+    "e": ["veigareventhorizon.png"],
+    "r": ["veigarprimordialburst.png"],
+    "extras": []
+  },
+  "Velkoz": {
+    "passive": ["velkoz_passive.png"],
+    "q": ["velkoz_q1.png", "velkoz_q2.png"],
+    "w": ["velkoz_w.png"],
+    "e": ["velkoz_e.png"],
+    "r": ["velkoz_r.png"],
+    "extras": []
+  },
+  "Vex": {
+    "passive": ["icons_vex_passive.png"],
+    "q": ["icons_vex_q01.png"],
+    "w": ["icons_vex_w01.png"],
+    "e": ["icons_vex_e01.png"],
+    "r": ["icons_vex_r01.png", "icons_vex_r02.png"],
+    "extras": []
+  },
+  "Vi": {
+    "passive": ["vipassive.png"],
+    "q": ["viq.png"],
+    "w": ["viw.png"],
+    "e": ["vie.png"],
+    "r": ["vir.png"],
+    "extras": []
+  },
+  "Viego": {
+    "passive": ["viego_passive.png"],
+    "q": ["viego_q.png"],
+    "w": ["viego_w.png"],
+    "e": ["viego_e.png"],
+    "r": ["viego_r.png"],
+    "extras": []
+  },
+  "Viktor": {
+    "passive": ["viktor_passive.png"],
+    "q": ["viktor_q1.png", "viktor_q2.png"],
+    "w": ["viktor_w1.png", "viktor_w2.png"],
+    "e": ["viktor_e1.png", "viktor_e2.png"],
+    "r": ["viktor_r1.png", "viktor_r2.png", "viktor_r_guide.png"],
+    "extras": []
+  },
+  "Vladimir": {
+    "passive": ["vladimirp.png"],
+    "q": ["vladimirq.png"],
+    "w": ["vladimirw.png"],
+    "e": ["vladimire.png"],
+    "r": ["vladimirr.png"],
+    "extras": []
+  },
+  "Volibear": {
+    "passive": ["volibear_icon_p.png"],
+    "q": ["volibear_icon_q.png"],
+    "w": ["volibear_icon_w.png"],
+    "e": ["volibear_icon_e.png"],
+    "r": ["volibear_icon_r.png"],
+    "extras": []
+  },
+  "Warwick": {
+    "passive": ["warwickp.png"],
+    "q": ["warwickq.png"],
+    "w": ["warwickw.png"],
+    "e": ["warwicke.png", "warwicke2.png"],
+    "r": ["warwickr.png"],
+    "extras": []
+  },
+  "Xayah": {
+    "passive": ["xayahpassive.png"],
+    "q": ["xayahq.png"],
+    "w": ["xayahw.png"],
+    "e": ["xayahe.png"],
+    "r": ["xayahr.png"],
+    "extras": []
+  },
+  "Xerath": {
+    "passive": ["xerath_passive1.png"],
+    "q": ["xerath_q1.png"],
+    "w": ["xerath_w1.png"],
+    "e": ["xerath_e1.png"],
+    "r": ["xerath_r1.png"],
+    "extras": []
+  },
+  "XinZhao": {
+    "passive": ["xinzhaoreworkp.png"],
+    "q": ["xinzhaoreworkq.png"],
+    "w": ["xinzhaoreworkw.png"],
+    "e": ["xinzhaoreworke.png"],
+    "r": ["xinzhaoreworkr.png"],
+    "extras": []
+  },
+  "Yasuo": {
+    "passive": ["yasuo_passive.png"],
+    "q": ["yasuo_q1.png", "yasuo_q2.png", "yasuo_q3.png"],
+    "w": ["yasuo_w.png"],
+    "e": ["yasuo_e.png"],
+    "r": ["yasuo_r.png"],
+    "extras": []
+  },
+  "Yone": {
+    "passive": ["yonepassive.png"],
+    "q": ["yoneq.png", "yoneq3.png"],
+    "w": ["yonew.png"],
+    "e": ["yonee.png", "yonee2.png"],
+    "r": ["yoner.png"],
+    "extras": []
+  },
+  "Yorick": {
+    "passive": ["yorick_p.png"],
+    "q": ["yorick_q.png", "yorick_q2.png"],
+    "w": ["yorick_w.png"],
+    "e": ["yorick_e.png"],
+    "r": ["yorick_r.png", "yorick_r2.png"],
+    "extras": []
+  },
+  "Yunara": {
+    "passive": ["yunara_passive.png"],
+    "q": ["yunara_q.png", "yunara_q2.png"],
+    "w": ["yunara_w.png"],
+    "e": ["yunara_e.png"],
+    "r": ["yunara_r.png", "yunara_rw.png", "yunara_re.png"],
+    "extras": []
+  },
+  "Yuumi": {
+    "passive": ["yuumip.png"],
+    "q": ["yuumiq.png", "yuumiq2.png"],
+    "w": ["yuumiw.png", "yuumiw2.png"],
+    "e": ["yuumie.png"],
+    "r": ["yuumir.png"],
+    "extras": []
+  },
+  "Zaahen": {
+    "passive": ["zaahenp.png"],
+    "q": ["zaahenq.png", "zaahenq2.png"],
+    "w": ["zaahenw.png"],
+    "e": ["zaahene.png"],
+    "r": ["zaahenr.png"],
+    "extras": []
+  },
+  "Zac": {
+    "passive": ["zacpassive.png"],
+    "q": ["zacq.png"],
+    "w": ["zacw.png"],
+    "e": ["zace.png"],
+    "r": ["zacr.png"],
+    "extras": []
+  },
+  "Zed": {
+    "passive": ["zedp.png"],
+    "q": ["zedq.png"],
+    "w": ["zedw.png", "zedw2.png"],
+    "e": ["zede.png"],
+    "r": ["zedr.png", "zedr2.png"],
+    "extras": []
+  },
+  "Zeri": {
+    "passive": ["zerip.png"],
+    "q": ["zeriq.png"],
+    "w": ["zeriw.png"],
+    "e": ["zerie.png"],
+    "r": ["zerir.png"],
+    "extras": []
+  },
+  "Ziggs": {
+    "passive": ["ziggsq.png"],
+    "q": ["ziggsq.png"],
+    "w": ["ziggsw.png"],
+    "e": ["ziggse.png"],
+    "r": ["ziggsr.png"],
+    "extras": []
+  },
+  "Zilean": {
+    "passive": ["zilean_passive.png"],
+    "q": ["zilean_q.png"],
+    "w": ["zilean_w.png"],
+    "e": ["zilean_e.png"],
+    "r": ["zilean_r.png"],
+    "extras": []
+  },
+  "Zoe": {
+    "passive": ["zoe_p.png"],
+    "q": ["zoe_q.png", "zoe_q2.png"],
+    "w": ["zoe_w.png", "zoe_w2.png"],
+    "e": ["zoe_e.png"],
+    "r": ["zoe_r.png"],
+    "extras": []
+  },
+  "Zyra": {
+    "passive": ["zyrap.png"],
+    "q": ["zyraq.png"],
+    "w": ["zyraw.png"],
+    "e": ["zyrae.png"],
+    "r": ["zyrar.png"],
+    "extras": []
+  }
+}
