@@ -190,10 +190,10 @@
     "extras": []
   },
   "Chogath": {
-    "passive": ["greenterror_tailspike.png"],
+    "passive": ["greenterror_chitinousexoplates.png"],
     "q": ["greenterror_spikeslam.png"],
     "w": ["greenterror_feralscream.png"],
-    "e": ["greenterror_chitinousexoplates.png"],
+    "e": ["greenterror_tailspike.png"],
     "r": ["greenterror_feast.png"],
     "extras": []
   },

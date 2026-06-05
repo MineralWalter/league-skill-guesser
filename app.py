@@ -163,7 +163,7 @@ elif st.session_state.stage == "complete":
         st.caption(f"Mastery data logged for slot [{correct_slot.upper()}]")
         
     st.write("")
-    if st.button("Next Round", icon=":material/arrow_forward:", use_container_width=True):
+    if st.button("Next Round", use_container_width=True):
         next_question()
         st.rerun()
 
