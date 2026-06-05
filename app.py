@@ -151,21 +151,21 @@ elif st.session_state.stage == "slot":
         st.session_state.stage = "complete"
         st.rerun()
 
-elif st.session_state.stage == "complete":
-    champ_face_path = os.path.join("league_champion_icons", f"{correct_name}.png")
-    
-    col1, col2 = st.columns([1, 4])
-    with col1:
-        if os.path.exists(champ_face_path):
-            st.image(champ_face_path, width=70)
-    with col2:
-        st.markdown(f"### {correct_name}")
-        st.caption(f"Mastery data logged for slot [{correct_slot.upper()}]")
+    elif st.session_state.stage == "complete":
+        champ_face_path = os.path.join("league_champion_icons", f"{correct_name}.png")
         
-    st.write("")
-    if st.button("Next Round", icon=":material/arrow_forward:", use_container_width=True):
-        next_question()
-        st.rerun()
+        col1, col2 = st.columns([1, 4])
+        with col1:
+            if os.path.exists(champ_face_path):
+                st.image(champ_face_path, width=70)
+        with col2:
+            st.markdown(f"### {correct_name}")
+            st.caption(f"Mastery data logged for slot [{correct_slot.upper()}]")
+            
+        st.write("")
+        if st.button("Next Round", icon=":material/arrow_forward:", use_container_width=True):
+            next_question()
+            st.rerun()
 
 st.write("---")
 st.caption("Made by Haru Nora | Discord: haru.nora")
