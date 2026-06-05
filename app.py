@@ -28,6 +28,8 @@ if "current_champ" not in st.session_state:
 
 if "feedback" not in st.session_state:
     st.session_state.feedback = ""
+if "feedback_type" not in st.session_state:
+    st.session_state.feedback_type = None
 if "stage" not in st.session_state:
     st.session_state.stage = "champ"
 
@@ -40,14 +42,15 @@ def next_question():
     st.session_state.current_icon = random.choice(data[random_champ_name][st.session_state.current_slot])
     
     st.session_state.feedback = ""
+    st.session_state.feedback_type = None
     st.session_state.stage = "champ"
 
 if st.session_state.feedback:
-    if "❌" in st.session_state.feedback:
+    if st.session_state.feedback_type == "error":
         st.error(st.session_state.feedback)
-    elif "So close!" in st.session_state.feedback or "🔍" in st.session_state.feedback:
+    elif st.session_state.feedback_type == "warning":
         st.warning(st.session_state.feedback)
-    else:
+    elif st.session_state.feedback_type == "success":
         st.success(st.session_state.feedback)
 
 header_col1, header_col2, header_col3 = st.columns([1, 3, 1])
@@ -94,18 +97,22 @@ if st.session_state.stage == "champ":
     if submit_button:
         if user_guess == "":
             st.session_state.feedback = "⚠️ Please select a champion from the dropdown before submitting!"
+            st.session_state.feedback_type = "warning"
             st.rerun()
         elif user_guess == correct_name:
             st.session_state.score += 1
             st.session_state.feedback = f"🎯 **Correct! It is {correct_name}.** Now, which ability slot is it?"
+            st.session_state.feedback_type = "success"
             st.session_state.stage = "slot"
             st.rerun()
         else:
             st.session_state.feedback = f"❌ Wrong champion! Try again or Skip."
+            st.session_state.feedback_type = "error"
             st.rerun()
 
     if st.button("Skip Champion ➡️"):
         st.session_state.feedback = f"🔍 The champion was **{correct_name}**. But can you guess the slot?"
+        st.session_state.feedback_type = "warning"
         st.session_state.stage = "slot"
         st.rerun()
 
@@ -113,7 +120,7 @@ elif st.session_state.stage == "slot":
     slot_header_l, slot_header_r = st.columns([4, 1])
     with slot_header_l:
         st.info(f"Champion Identified: **{correct_name}**")
-        st.write("Choose which skill slot this icon belongs to:")
+        st.write("Choose which ability this icon belongs to:")
     with slot_header_r:
         champ_face_path = os.path.join("league_champion_icons", f"{correct_name}.png")
         if os.path.exists(champ_face_path):
@@ -126,25 +133,37 @@ elif st.session_state.stage == "slot":
         # Convert to lowercase to match the JSON keys
         json_slot_key = slot_name.lower()
         with cols[i]:
-            if st.button(f"✨ {slot_name}", key=f"btn_{slot_name}", use_container_width=True):
+            if st.button(f"{slot_name}", key=f"btn_{slot_name}", use_container_width=True):
                 if json_slot_key == correct_slot:
                     st.session_state.score += 1
-                    st.session_state.feedback = f"🎉 Correct, it's **{correct_name}**'s **{slot_name}** ability!"
+                    st.session_state.feedback_type = "success"
+                    st.session_state.feedback = f"Correct, it's **{correct_name}**'s **{slot_name}** ability!"
                 else:
+                    st.session_state.feedback_type = "error"
                     st.session_state.feedback = f"Incorrect! The correct answer was **{correct_name}**'s **{correct_slot.upper()}** ability."
                 st.session_state.stage = "complete"
                 st.rerun()
 
     st.write("")
-    if st.button("Skip Slot ➡️"):
+    if st.button("Skip ⏩"):
+        st.session_state.feedback_type = "warning"
         st.session_state.feedback = f"The icon belongs to the **{correct_slot.upper()}** slot."
         st.session_state.stage = "complete"
         st.rerun()
 
 elif st.session_state.stage == "complete":
-    st.info(f"Round Matchup: **{correct_name}** | Slot Target: **{correct_slot.upper()}**")
+    champ_face_path = os.path.join("league_champion_icons", f"{correct_name}.png")
     
-    if st.button("Next Champion ➡️", use_container_width=True):
+    col1, col2 = st.columns([1, 4])
+    with col1:
+        if os.path.exists(champ_face_path):
+            st.image(champ_face_path, width=70)
+    with col2:
+        st.markdown(f"### {correct_name}")
+        st.caption(f"Mastery data logged for slot [{correct_slot.upper()}]")
+        
+    st.write("")
+    if st.button("Next Round", icon=":material/arrow_forward:", use_container_width=True):
         next_question()
         st.rerun()
 
